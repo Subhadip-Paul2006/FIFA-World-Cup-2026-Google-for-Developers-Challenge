@@ -339,5 +339,3 @@ Built with love for the **Google for Developers FIFA World Cup 2026 Challenge**
 *Transforming 16 stadiums into intelligent, AI-powered fan experiences.*
 
 </div>
-#   F I F A - W o r l d - C u p - 2 0 2 6 - G o o g l e - f o r - D e v e l o p e r s - C h a l l e n g e  
- 
