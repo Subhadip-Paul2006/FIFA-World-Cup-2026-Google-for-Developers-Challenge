@@ -364,7 +364,7 @@ The solution must integrate with FIFA's existing 2026 technology stack:
 │ • STT/TTS    │ │ • Data Aggreg.  │ │   LLM     │
 │ • AR Render  │ │ • Venue Coord.  │ │ • Analytics│
 │ • Real-time  │ │ • Cross-venue   │ │ • Training│
-│   decisions  │ │   sync            │ │ • Archive │
+│   decisions  │ │   sync          │ │ • Archive │
 └───────┬──────┘ └────────┬────────┘ └─────┬──────┘
         │                 │                │
         └─────────────────┼────────────────┘
@@ -394,7 +394,7 @@ The solution must integrate with FIFA's existing 2026 technology stack:
 
 4. **Offline-First Mobile:** Stadium networks can become congested. Mobile apps must cache maps, AI models, and critical content locally. GenAI features should degrade gracefully (e.g., switch to pre-cached responses).
 
-5. **Modular Microservices:** Each AI capability (navigation, crowd, translation) should be a独立 service with clear APIs, allowing independent scaling and failure isolation.
+5. **Modular Microservices:** Each AI capability (navigation, crowd, translation) should be a standalone service with clear APIs, allowing independent scaling and failure isolation.
 
 6. **Human-in-the-Loop:** All AI-generated operational decisions (especially security-related) must be reviewed/approved by human operators. AI provides recommendations; humans execute.
 

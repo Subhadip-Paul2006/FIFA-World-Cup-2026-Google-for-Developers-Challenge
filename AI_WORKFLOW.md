@@ -425,7 +425,7 @@ flowchart LR
         TRANSLATE_OUT["Response Translation\n→ User language\nDeepL API"]
     end
 
-    subgraph OUTPUT2["Output - User Language"]
+    subgraph OUTPUT2_ML["Output - User Language"]
         TTS_OUT["TTS Output\nAzure Neural TTS\n100+ language voices"]
         TEXT_OUT["Text Response\nin user language"]
     end
